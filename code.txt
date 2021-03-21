@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<style>		
+			#colspan{
+			background-color: white;
+			background-position: center center;
+			box-shadow: 0 0 25px;
+			width: 30%;
+			height: 1127.15px;
+			text-align: justify;
+			float: left;
+			padding: 0 8px;
+			padding-right: 16px;
+			
+			}
+			.container-padding {
+			box-shadow: 0 0 25px;
+			width: 70%;
+			height: 588.2px;
+			background-color: rgb(255, 255, 255);
+			box-sizing: border-box;
+			color: rgb(0, 0, 0);
+			font-family: "Roboto", sans-serif;
+			font-size: 15px;
+			line-height: 22.5px;
+			margin-left: 34%;
+			padding-bottom: 0.15px;
+			padding-left: 16px;
+			padding-top: 0.15px;
+			}
+			
+			.padding { 
+				text-align: left;
+			}
+			.padding-bottom {
+			box-shadow: 0 0 25px;
+			width: 70%;
+			position: bottom;
+			height: 588.2px;
+			background-color: rgb(255, 255, 255);
+			box-sizing: border-box;
+			color: rgb(0, 0, 0);
+			font-family: "Roboto", sans-serif;
+			font-size: 15px;
+			line-height: 22.5px;
+			margin-left: 34%;
+			padding-bottom: 0.15px;
+			padding-left: 16px;
+			padding-top: 0.15px;
+			margin-top: 16px;
+			}
+			
+			
+			
+			.load {
+			background-color: rgb(241, 241, 241);
+			border-bottom-left-radius: 16px;
+			border-bottom-right-radius: 16px;
+			border-top-left-radius: 16px;
+			border-top-right-radius: 16px;
+			box-sizing: border-box;
+			color: rgb(0, 0, 0);
+			font-family: "Roboto", sans-serif;
+			font-size: 12px;
+			line-height: 18px;
+			}
+			.progress {
+			background-color:  #009688 !important;
+			border-bottom-left-radius: 13px;
+			border-bottom-right-radius: 16px;
+			border-top-left-radius: 16px;
+			border-top-right-radius: 16px;
+			box-sizing: border-box;
+			color: rgb(0, 0, 0);
+			font-family: "Roboto", sans-serif;
+			font-size: 12px;
+			line-height: 18px;
+			color:  #ffff !important;
+			text-align: center;
+			}
+			.load2 {
+				background-color: rgb(241, 241, 241);
+				border-bottom-left-radius: 16px;
+				border-bottom-right-radius: 16px;
+				border-top-left-radius: 16px;
+				border-top-right-radius: 16px;
+				box-sizing: border-box;
+				color: rgb(0, 0, 0);
+				font-family: "Roboto", sans-serif;
+				font-size: 12px;
+				line-height: 18px;
+			}
+			
+			
+			.progress2 {
+			background-color:  #009688 !important;
+			border-bottom-left-radius: 16px;
+			border-bottom-right-radius: 16px;
+			border-top-left-radius: 16px;
+			border-top-right-radius: 16px;
+			box-sizing: border-box;
+			color: rgb(0, 0, 0);
+			font-family: "Roboto", sans-serif;
+			font-size: 12px;
+			line-height: 18px;
+			color:  #ffff !important;
+			text-align: center;
+			}
+			.load3 {
+				background-color: rgb(241, 241, 241);
+				border-bottom-left-radius: 16px;
+				border-bottom-right-radius: 16px;
+				border-top-left-radius: 16px;
+				border-top-right-radius: 16px;
+				box-sizing: border-box;
+				color: rgb(0, 0, 0);
+				line-height: 18px;
+			}
+			.progress3 {
+				background-color: #009688 !important;
+				border-bottom-left-radius: 16px;
+				border-bottom-right-radius: 16px;
+				border-top-left-radius: 16px;
+				border-top-right-radius: 16px;
+				color: #fff !important;
+				text-align: center;
+				line-height: 18px;
+				font-size: 12px;
+
+				
+			}
+			.load4 {
+				background-color: rgb(241, 241, 241);
+				border-bottom-left-radius: 16px;
+				border-bottom-right-radius: 16px;
+				border-top-left-radius: 16px;
+				border-top-right-radius: 16px;
+				box-sizing: border-box;
+				color: rgb(0, 0, 0);
+				line-height: 18px;
+			}
+			.progress4 {
+				background-color: #009688 !important;
+				border-bottom-left-radius: 16px;
+				border-bottom-right-radius: 16px;
+				border-top-left-radius: 16px;
+				border-top-right-radius: 16px;
+				color: #fff !important;
+				text-align: center;
+				line-height: 18px;
+				font-size: 12px;
+			}
+			.content1 { 
+				padding: 14px;
+			}
+			.content2 {
+				padding: 14px;
+			}
+			.content3 {
+				padding: 10px;
+			}
+			.content4 {
+				padding: 16px;
+			}
+			.content5 {
+				padding: 16px;
+			}
+			.content6 {
+				padding: 16px;
+			}
+			img  {
+				size: cover;
+				width: 100%;
+				height: 225.18px;
+				line-height: 1.5px;
+			}
+			
+				
+			h4{
+				color: white;
+				padding: 15px;
+				text-align: left;
+				margin-top: -50px;
+			}
+			i {
+				padding: 5px;
+				color: #009688 !important;
+			}
+			hr {
+				border: -1px solid gray;
+			}
+			
+		</style>
+	</head>
+	<body>
+	<!-- Container -->
+		<div class="container">
+			<div id="colspan">
+				<img src="https://lh3.googleusercontent.com/proxy/5wDKwyoyqJdgsb-GbXnukg87gqiKJOKHEnHGTSdlsea2qSpmnJNCAv-OgC5rrCWF7cCUBLRfmM6H11OUhgXhbpcYdF9DUO0">
+				<h1>Yoga Paripurna</h1>
+				<p><i class="fa fa-briefcase fa-fw large"></i>Mahasiswa</p>
+				<p><i class="fa fa-home fa-fw large"></i>Yogyakarta, Indonesia</p>
+				<p><i class="fa fa-phone fa-fw large"></i>08973936991</p>
+				<hr>
+				<h3><i class="fa fa-linux fa-fw large"></i>Skills</h3>
+				<p>Mobile Legend</p>
+				<div class="load">
+					<div class="progress" style="width:85%">85%</div>
+				</div>
+				<p>Black Desert</p>
+				<div class="load2">
+					<div class="progress2" style="width:90%">90%</div>
+				</div>
+				<p>Lineage II Revolution</p>
+				<div class="load3">
+				<div class="progress3" style="width:70%">70%</div>
+			</div>
+				<p>LOL Wildrift</p>
+				<div class="load4">
+					<div class="progress4" style="width:40%">40%</div>
+				</div>
+				<p>Cabal M Thailand</p>
+					<div class="load4">
+					<div class="progress4" style="width:80%">80%</div>
+				</div>
+				<p>PUBG</p>
+					<div class="load4">
+					<div class="progress4" style="width:70%">65%</div>
+				</div>
+				<hr>
+				<h3><i class="fa fa-language fa-fw large"></i>Language</h3>
+                <p>Indonesia</p>
+				<p>English</p>
+				<p>Japanese</p>
+			</div>
+			
+		</div> 
+		<div class="container-padding">
+		<div class="padding">
+				<div class="content1">
+			<h2><i class="fa fa-briefcase fa-fw large"></i>Riwayat Pendidikan</h2>
+			<h3>SD Negeri Jati 2</h3>
+			<p><i class="fa fa-calendar fa-fw large"></i>2007 - 2012</p>
+			</p>
+			</div>
+			<hr>
+				<div class="content2">
+			<h3>SMP Negeri 1 Masaran</h3>
+			<p><i class="fa fa-calendar fa-fw large"></i>2012 - 2015</p>
+			</p>
+			</div>
+			<hr>
+				<div class="content3">	
+			<h3>SMA Negeri Kebakkramat</h3>
+			<p><i class="fa fa-calendar fa-fw large"></i>2016 - 2019</p>
+            </div>
+             <hr>
+                <div class="content3">	
+             <h3>Universitas Muhammadiyah Yogyakarta</h3>
+            <p><i class="fa fa-calendar fa-fw large"></i>2019 - Sekarang</p>
+            <p>Fakultas Teknik, Teknologi Informasi, Semester 4</p>
+			</div>
+			</div>
+			</div>
+			<div class="padding-bottom">
+				<div class="bottom">
+					<h2><i class="fa fa-linux fa-fw large"></i>My Profil</h2>
+					<div class="content4">
+						 <h3>Hooby</h3>
+					    <p> Bermain game, Tidur, Makan, Nonton Film,Traveling ke Pantai, Gunung, Tempat baru.</p>
+                        <h3>Olahraga</h3>
+                        <p>Berenang, Sepedaan, Lari dari kenyataan</p>
+                        <h3>Motto Favorit</h3>
+                        <p>Cukup sedih sih kawan, tapi maaf semen tidak bisa mengaduk dirinya sendiri. Sekarang ambil cangkulmu dan mulai mengaduk bersamaku. 
+
+                            Di saat adukan semenku rata, disitulah kuku bimaku sruput,
+                            Di situlah proposalmu terwujud
+                            Di saat gorenganku masih hangat, disitulah batu bata terangkat. Di saat kaos partai ku pakai, di situlah rumah impianmu menjadi megah. Di saat kuli memegang cangkul, di situlah thor akan insecure. Ketika kuli jawa sedang bekerja, di situlah tercipta rumah spek dewa. Berikan aku secangkir kopi, niscaya akan ku bangun negeri ini.
+                            
+                            With kuli make a country</p>
+                        <h3>Motivasi Belajar</h3>
+                        <p>"Jika kamu tidak sanggup menahan lelahnya belajar maka kamu harus sanggup menahan perihnya kebodohan" - Imam Syafi'i</p>
+                        <h3>Sosial Media</h3>
+                        <p"><a style="color: black;" href="https://web.facebook.com/zoga.sandman">Facebook</a></p>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+https://fuadrizkani20190140047.herokuapp.com/
